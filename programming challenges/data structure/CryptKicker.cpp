@@ -137,7 +137,6 @@ int main()
         pair<char,int> rhash[26];
         fill(hash,hash+26,make_pair(0,0));
         fill(rhash,rhash+26,make_pair(0,0));
-        rec(vec,words,hash,rhash,0,sol);
         if(rec(vec,words,hash,rhash,0,sol))
         {
             for(int i=0;i<words.size()-1;i++)
